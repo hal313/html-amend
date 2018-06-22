@@ -1,0 +1,18 @@
+{
+  "curly": true,
+  "eqeqeq": true,
+  "esversion": 6,
+  "latedef": true,
+  "maxcomplexity": 6,
+  "maxdepth": 4,
+  "noarg": true,
+  "quotmark": "single",
+  "shadow": "inner",
+  "strict": true,
+  "undef": true,
+  "unused": true,
+  "varstmt": true,
+  "eqnull": true,
+  "jasmine": true,
+  "node": true
+}

@@ -1,0 +1,65 @@
+{
+  "name": "@hal313/html-amend",
+  "version": "1.0.0",
+  "description": "Amends HTML by inserting attributes into elements, or elements into the DOM.",
+  "homepage": "https://github.com/hal313/html-amend",
+  "bugs": {
+    "url": "https://github.com/hal313/html-amend/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hal313/html-amend.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "jshint --config=.jshintrc src/html-amend.js test/html-amend.spec.js",
+    "prepublish": "jshint --config=.jshintrc src/html-amend.js test/html-amend.spec.js"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "build/reports",
+    "coverageThreshold": {
+      "global": {
+        "branches": 60,
+        "functions": 90,
+        "lines": 80,
+        "statements": 80
+      }
+    },
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "roots": [
+      "src",
+      "test"
+    ],
+    "resetModules": true
+  },
+  "auto-changelog": {
+    "unreleased": false,
+    "commitLimit": false
+  },
+  "keywords": [
+    "html",
+    "insert",
+    "replace",
+    "amend"
+  ],
+  "files": [
+    "src/**/*",
+    "test/**/*",
+    ".gitignore",
+    ".jshintrc",
+    ".travis.yml",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package-lock.json",
+    "package.json",
+    "README.md"
+  ],
+  "devDependencies": {
+    "auto-changelog": "^1.7.1"
+  }
+}

@@ -2,9 +2,9 @@
 
 > Amends HTML by inserting attributes into elements, or elements into the DOM.
 
-[![Build Status](http://img.shields.io/travis/hal313/html-amend/master.svg?style=flat-square)](https://travis-ci.org/hal313/html-amend)
-[![NPM version](http://img.shields.io/npm/v/html-amend.svg?style=flat-square)](https://www.npmjs.com/package/html-amend)
-[![Dependency Status](http://img.shields.io/david/hal313/html-amend.svg?style=flat-square)](https://david-dm.org/hal313/html-amend)
+[![Build Status](https://img.shields.io/travis/hal313/html-amend/master.svg?style=flat-square)](https://travis-ci.org/hal313/html-amend)
+[![NPM version](https://img.shields.io/npm/v/@hal313/html-amend.svg?style=flat-square)](https://www.npmjs.com/package/@hal313/html-amend)
+[![Dependency Status](https://img.shields.io/david/hal313/html-amend.svg?style=flat-square)](https://david-dm.org/hal313/html-amend)
 
 ## Information
 

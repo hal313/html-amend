@@ -1,6 +1,6 @@
 {
   "name": "@hal313/html-amend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Amends HTML by inserting attributes into elements, or elements into the DOM.",
   "homepage": "https://github.com/hal313/html-amend",
   "bugs": {
@@ -41,6 +41,7 @@
     "unreleased": false,
     "commitLimit": false
   },
+  "main": "src/html-amend.js",
   "keywords": [
     "html",
     "insert",

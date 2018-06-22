@@ -1,6 +1,6 @@
 {
   "name": "@hal313/html-amend",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Amends HTML by inserting attributes into elements, or elements into the DOM.",
   "homepage": "https://github.com/hal313/html-amend",
   "bugs": {

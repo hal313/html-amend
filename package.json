@@ -41,6 +41,7 @@
     "unreleased": false,
     "commitLimit": false
   },
+  "main": "src/html-amend.js",
   "keywords": [
     "html",
     "insert",

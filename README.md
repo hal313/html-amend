@@ -1,5 +1,3 @@
-npm publish --access=public
-
 # html-amend
 
 > Amends HTML by inserting attributes into elements, or elements into the DOM.
